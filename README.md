@@ -1,16 +1,53 @@
-KUET_Effervescent ICPC Team notebook
-===================================
+# DSA Lab Tasks
 
-The team notebook is compiled from codes written by KUET_Effervescent team members (Mehrab Hossain Opi, Arnob Sarker, Sharif Minhazul Islam).
+**Name:** SANJIDUR RAHMAN  
+**Roll:** 2307006  
+**Course:** Data Structures and Algorithms Lab
 
-Generating team notebook
-========================
-The python script is a fork of the Stanford ICPC teams notebook generator. It currently hosts the team notebook. The included Python scripts differs from the original repository. Here, directories will be the section and file name without extension will be subsection. Now, code comment support latex math formating.
+---
 
-Generating PDF
---------------
-Requires: [Python 2/3](https://www.python.org/), [latexmk](https://www.ctan.org/pkg/latexmk/)
+## 📁 Repository Structure
 
-Script for generating the PDF file is `generate_pdf.py`.
-The LaTeX template that the script uses is `notebook.tex`. It recognizes common file extensions for C/C++/Java/Python and applies syntax highlighting. In order to change the color scheme or add additional languages, both `notebook.tex` and `generate_pdf.py` should be modified accordingly.
-# Effervescent_Code_Library
+├── code/ # Lab task source codes
+│ └── DSA/ # DSA implementations
+├── math/ # Mathematical concepts/notes
+├── images/ # Images used in documentation
+├── backup_code/ # Backup implementations
+├── notebook.tex # LaTeX template for PDF generation
+├── notebook.pdf # Generated PDF notebook
+├── generate_pdf.py # Script to generate PDF
+└── Lab_task.sh # Shell script to run generator
+
+text
+
+
+---
+
+## 🚀 Usage
+
+### Generate PDF Notebook:
+
+```bash
+# Using shell script
+./Lab_task.sh
+
+# Or using Python directly
+python generate_pdf.py --name "SANJIDUR RAHMAN" --roll "2307006"
+
+Requirements:
+
+    Python 3
+    LaTeX (latexmk, pdflatex)
+    minted package
+
+📝 Lab Tasks Included
+
+    Stack Implementation
+    Queue Implementation
+    Infix to Prefix/Postfix Conversion
+    Expression Evaluation
+
+📄 License
+
+For educational purposes only.
+
